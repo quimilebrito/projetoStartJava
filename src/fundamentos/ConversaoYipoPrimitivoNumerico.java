@@ -8,15 +8,15 @@ public class ConversaoYipoPrimitivoNumerico {
 		double a = 1;       //conversão implicita
 		System.out.println(a);
 		
-		float b = (float)1.123456789;
+		float b = (float)1.123456789;    //conversão explícita (CAST)
 		System.out.println(b);
 		
 		int c = 240;
-		byte d = (byte) c;   //conversão explícita
+		byte d = (byte) c;   //conversão explícita (CAST)
 		System.out.println(d);
 		
 		double e = 1.9999999;
-		int f = (int) e;
+		int f = (int) e;       //conversão explícita (CAST)
 		System.out.println(f);
 	}
 }
